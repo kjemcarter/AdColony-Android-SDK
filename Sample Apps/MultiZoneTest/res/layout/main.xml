@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/adc"
+  />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" "
+    />
+<Button android:id ="@+id/zone1"
+  android:text="Video Zone 1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@drawable/button"
+  android:gravity="center_vertical|center_horizontal|center"
+  android:layout_gravity="center_vertical|center_horizontal|center"
+  android:textColor="#ffffff"
+  android:textSize="30sp"
+/>
+<Button android:id ="@+id/zone2"
+  android:text="Video Zone 2"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@drawable/button"
+  android:gravity="center_vertical|center_horizontal|center"
+  android:layout_gravity="center_vertical|center_horizontal|center"
+  android:textColor="#ffffff"
+  android:textSize="30sp"
+/>
+<Button android:id ="@+id/zone3"
+  android:text="Video Zone 3"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@drawable/button"
+  android:gravity="center_vertical|center_horizontal|center"
+  android:layout_gravity="center_vertical|center_horizontal|center"
+  android:textColor="#ffffff"
+  android:textSize="30sp"
+/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" "
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="You can play videos from different zones as desired."
+    />
+</LinearLayout>
+</FrameLayout>
+

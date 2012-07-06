@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<ImageView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:scaleType="fitCenter" 
+          android:src="@drawable/adc"
+  />
+<Button android:id ="@+id/video_button"
+  android:text="Show Video"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@drawable/button"
+  android:gravity="center_vertical|center_horizontal|center"
+  android:layout_gravity="center_vertical|center_horizontal|center"
+  android:textColor="#ffffff"
+  android:textSize="30sp"
+/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" "
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center" 
+    android:text="Click to play a video once one is available."
+    />
+</LinearLayout>
+</FrameLayout>
+
