@@ -72,6 +72,18 @@ public class V4VCTest extends Activity
         });
   }
 
+  public void onPause()
+  {
+    super.onPause();
+    AdColony.pause();  // necessary for correct session length reporting
+  }
+
+  public void onResume()
+  {
+    super.onResume();
+    AdColony.resume( this );  // necessary for correct session length reporting
+  }
+
   // App-specific - load our accumulated total amount of virtual currency.
   void loadProperties()
   {

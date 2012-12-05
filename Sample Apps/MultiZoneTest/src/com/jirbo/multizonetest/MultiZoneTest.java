@@ -67,5 +67,18 @@ public class MultiZoneTest extends Activity
           }
         });
   }
+
+  public void onPause()
+  {
+    super.onPause();
+    AdColony.pause();  // necessary for correct session length reporting
+  }
+
+  public void onResume()
+  {
+    super.onResume();
+    AdColony.resume( this );  // necessary for correct session length reporting
+  }
+
 }
 
